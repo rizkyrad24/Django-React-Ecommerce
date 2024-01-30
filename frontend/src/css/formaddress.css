@@ -1,0 +1,77 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 10;
+    overflow-y: scroll;
+}
+
+.form-address-box {
+    margin: 30px auto;
+    width: 600px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.map-box {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#map {
+    width: 800px;
+    height: 300px;
+    margin: 30px auto 20px;
+    background-color: aqua;
+}
+
+.location-info {
+    display: flex;
+    justify-content: center;
+}
+
+.location-info span {
+    display: block;
+    padding: 5px 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 300px;
+}
+
+.address-main-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-items: center;
+}
+
+.header-info-address {
+    display: flex;
+    gap: 20px;
+    margin: 10px auto;
+}
+
+.address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.address-box {
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 300px;
+}

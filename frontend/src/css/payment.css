@@ -1,0 +1,37 @@
+.payment-main-box {
+    width: 800px;
+    margin: 50px auto;
+    padding: 30px 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.payment-number-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-copy {
+    padding: 0px 10px 3px;
+    opacity: 0.5;
+}
+
+.btn-copy:hover {
+    opacity: 1;
+}
+
+.payment-logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.payment-logo img {
+    height: 80px;
+}
+
+.payment-logo h1 {
+    margin-bottom: 0;
+}

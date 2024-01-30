@@ -1,0 +1,128 @@
+.main-box {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px 50px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.alert {
+    width: 400px;
+    border-color: grey;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    animation: alertFrame 1s;
+    background-color: rgb(13, 110, 253);
+    color: white;
+    z-index: 99;
+}
+
+@keyframes alertFrame {
+    0% {
+        right: -500px;
+    }
+    100% {
+        right: 20px;
+    }
+}
+
+#logout {
+    cursor: pointer;
+}
+
+#navbarNav {
+    justify-content: end;
+    gap: 20px;
+}
+
+.cart-box {
+    display: flex;
+}
+
+.cart-list {
+    line-height: 100px;
+}
+
+.order-amount {
+    position: relative;
+    top: 15px;
+    right: -15px;
+    font-size: 15px;
+    color: white;
+}
+
+.cart-icon {
+    width: 40px;
+    cursor: pointer;
+}
+
+.cart-product-field {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-product-field span {
+    max-width: 400px;
+    text-wrap: wrap;
+    line-height: normal;
+}
+
+.cart-product-img {
+    width: 100px;
+    max-height: 100px;
+}
+
+.amount-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+    height: 100px;
+}
+
+.amount-actions button {
+    height: 30px;
+}
+
+div.input-group.action-cart {
+    max-width: 300px;
+}
+
+div.product-box-order {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+img.img-order-product {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.address-form-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.overlay-spinner {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.spinner-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

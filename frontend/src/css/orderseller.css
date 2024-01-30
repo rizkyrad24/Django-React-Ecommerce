@@ -1,0 +1,123 @@
+.cart-list {
+    font-size: 14px;
+}
+.cart-list td {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+td.action-button {
+    text-align: center;
+}
+
+.cart-list th {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.cart-list td button {
+    font-size: 14px;
+}
+
+.order-seller-field {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.8fr;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.order-seller-img {
+    width: 90px;
+    height: 90px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.order-seller-img img {
+    max-width: 86px;
+    max-height: 86px;
+    display: block;
+}
+
+.overlay-trackings {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 10;
+    overflow-y: scroll;
+}
+
+.tracking-box {
+    margin: 50px auto;
+    padding: 20px 30px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    max-width: 600px;
+    background-color: wheat;
+    line-height: normal;
+}
+
+.tracking-box li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* complain */
+.overlay-complain {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll;
+}
+
+.complain-box {
+    margin-bottom: 20px;
+}
+
+.complain-header-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.complain-header-box span {
+    display: block;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+span.date-upload {
+    font-weight: normal;
+    opacity: 0.5;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.complain-box p {
+    display: block;
+    min-height: 30px;
+}
+
+.complain-picture-box {
+    display: flex;
+    gap: 10px;
+}
+
+.complain-picture-box img {
+    max-height: 80px;
+    cursor: pointer;
+}

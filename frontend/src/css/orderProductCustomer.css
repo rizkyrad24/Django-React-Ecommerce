@@ -1,0 +1,129 @@
+.header-info {
+    display: flex;
+    gap: 20px;
+    margin: 10px auto;
+}
+
+.myproducts-box {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+img-box-product {
+    height: 200px;
+    width: 20rem;
+    background-color: rgb(205, 209, 202);
+}
+
+.img-product {
+    height: 200px;
+    max-width: 20rem;
+    margin: 0px auto;
+    display: block;
+}
+
+.no-image {
+    height: 200px;
+    width: 20rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(185, 185, 185);
+}
+
+.no-image p {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.image-slide {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.arrow-layout {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -200px;
+}
+
+.img-arrow {
+    width: 20px;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.img-arrow:hover {
+    opacity: 1;
+}
+
+.order-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.no-order {
+    font-style: 30px;
+    font-weight: bold;
+}
+
+/* complain */
+.overlay-complain {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.9);
+    overflow-y: scroll;
+}
+
+.complain-box {
+    margin-bottom: 20px;
+}
+
+.complain-header-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.complain-header-box span {
+    display: block;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+}
+
+span.date-upload {
+    font-weight: normal;
+    opacity: 0.5;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.complain-box p {
+    display: block;
+    min-height: 30px;
+}
+
+.complain-picture-box {
+    display: flex;
+    gap: 10px;
+}
+
+.complain-picture-box img {
+    max-height: 80px;
+    cursor: pointer;
+}
